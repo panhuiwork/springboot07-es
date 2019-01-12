@@ -1,0 +1,10 @@
+#spring:
+#  elasticsearch:
+ #   jest:
+ #     uris:
+#      - http://192.168.0.11:9200
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.0.11:9301
